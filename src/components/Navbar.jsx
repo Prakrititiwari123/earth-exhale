@@ -14,9 +14,9 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
 
   const navLinks = [
     { name: 'Home', href: '#' },
-    { name: 'Trendy', href: '#trendy' },
-    { name: 'Top Selling', href: '#top-selling' },
-    { name: 'Plants', href: '#featured' },
+    { name: 'Plants Type', href: '#top-selling' },
+    { name: 'More', href: '#best-o2' },
+    { name: 'Contact', href: '#footer' },
   ];
 
   const handleIconClick = (action) => {
@@ -24,47 +24,47 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
   };
 
   return (
-    <nav className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-white shadow-sm'}`}>
+    <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/40 backdrop-blur-lg border-b border-white/10' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
-          <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-bold tracking-tight bg-gradient-to-r from-green-800 to-green-600 bg-clip-text text-transparent">
-              Earth's<span className="text-green-700"> Exhale</span>
+          <div className="shrink-0 flex items-center">
+            <span className="text-2xl font-semibold tracking-tight text-white">
+              Flora<span className="text-lime-300">Vision.</span>
             </span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a key={link.name} href={link.href} className="text-gray-700 hover:text-green-700 font-medium transition-colors duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-green-600 after:transition-all hover:after:w-full">
+              <a key={link.name} href={link.href} className="text-white/80 hover:text-lime-200 font-medium transition-colors duration-200 relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-lime-300 after:transition-all hover:after:w-full">
                 {link.name}
               </a>
             ))}
           </div>
 
           <div className="hidden md:flex items-center space-x-5">
-            <button onClick={() => handleIconClick('Search')} className="text-gray-600 hover:text-green-700 transition p-1" aria-label="Search"><FaSearch size={18} /></button>
-            <button onClick={() => handleIconClick('Shopping cart')} className="text-gray-600 hover:text-green-700 transition p-1 relative" aria-label="Cart"><FaShoppingCart size={18} /><span className="absolute -top-1 -right-2 bg-green-600 text-white text-[10px] rounded-full w-4 h-4 flex items-center justify-center">3</span></button>
-            <button onClick={() => handleIconClick('User account')} className="text-gray-600 hover:text-green-700 transition p-1" aria-label="User"><FaUser size={18} /></button>
+            <button onClick={() => handleIconClick('Search')} className="text-white/80 hover:text-lime-200 transition p-1" aria-label="Search"><FaSearch size={16} /></button>
+            <button onClick={() => handleIconClick('Shopping cart')} className="text-white/80 hover:text-lime-200 transition p-1 relative" aria-label="Cart"><FaShoppingCart size={16} /><span className="absolute -top-1 -right-2 bg-lime-300 text-black text-[10px] rounded-full w-4 h-4 flex items-center justify-center">3</span></button>
+            <button onClick={() => handleIconClick('User account')} className="text-white/80 hover:text-lime-200 transition p-1" aria-label="User"><FaUser size={16} /></button>
           </div>
 
           <div className="md:hidden flex items-center space-x-3">
-            <button onClick={() => handleIconClick('Search')} className="text-gray-600 p-1" aria-label="Search"><FaSearch size={18} /></button>
-            <button onClick={() => handleIconClick('Cart')} className="text-gray-600 p-1 relative" aria-label="Cart"><FaShoppingCart size={18} /><span className="absolute -top-1 -right-2 bg-green-600 text-white text-[10px] rounded-full w-4 h-4 flex items-center justify-center">3</span></button>
-            <button onClick={toggleMobileMenu} className="text-gray-700 focus:outline-none" aria-label="Menu">
+            <button onClick={() => handleIconClick('Search')} className="text-white/80 p-1" aria-label="Search"><FaSearch size={18} /></button>
+            <button onClick={() => handleIconClick('Cart')} className="text-white/80 p-1 relative" aria-label="Cart"><FaShoppingCart size={18} /><span className="absolute -top-1 -right-2 bg-lime-300 text-black text-[10px] rounded-full w-4 h-4 flex items-center justify-center">3</span></button>
+            <button onClick={toggleMobileMenu} className="text-white focus:outline-none" aria-label="Menu">
               {mobileMenuOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
             </button>
           </div>
         </div>
 
         <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-96 opacity-100 pb-4' : 'max-h-0 opacity-0'}`}>
-          <div className="flex flex-col space-y-3 pt-2 pb-4 border-t border-gray-100">
+          <div className="flex flex-col space-y-3 pt-2 pb-4 border-t border-white/15">
             {navLinks.map((link) => (
-              <a key={link.name} href={link.href} onClick={toggleMobileMenu} className="text-gray-700 hover:text-green-700 font-medium py-2 px-2 rounded-md hover:bg-green-50 transition">
+              <a key={link.name} href={link.href} onClick={toggleMobileMenu} className="text-white/80 hover:text-lime-200 font-medium py-2 px-2 rounded-md hover:bg-white/10 transition">
                 {link.name}
               </a>
             ))}
             <div className="flex items-center space-x-6 pt-2">
-              <button onClick={() => handleIconClick('Profile')} className="flex items-center text-gray-600 hover:text-green-700"><FaUser className="mr-2" /> Account</button>
+              <button onClick={() => handleIconClick('Profile')} className="flex items-center text-white/80 hover:text-lime-200"><FaUser className="mr-2" /> Account</button>
             </div>
           </div>
         </div>

@@ -1,12 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Urbanist:wght@500;600;700&display=swap');
 @import "tailwindcss";
 
 @layer base {
+  :root {
+    --moss: #346739;
+  }
+
   html {
     scroll-behavior: smooth;
   }
+
   body {
-    background-color: white;
-    color: #1f2937;
-    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #07140c;
+    color: #d8e8db;
+    font-family: 'Manrope', sans-serif;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .app-shell {
+    position: relative;
+    overflow: clip;
+    isolation: isolate;
+  }
+
+  .app-shell::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -3;
+    background-image: linear-gradient(130deg, rgba(5, 12, 8, 0.84), rgba(6, 16, 10, 0.6)), url('https://images.unsplash.com/photo-1614594971025-14e3cc3c5700?auto=format&fit=crop&w=2000&q=80');
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.8) brightness(0.48);
+  }
+
+  .app-shell::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: radial-gradient(circle at 20% 15%, rgba(52, 103, 57, 0.45), transparent 42%), radial-gradient(circle at 85% 50%, rgba(91, 141, 79, 0.2), transparent 36%);
+    pointer-events: none;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(11, 30, 16, 0.1), rgba(3, 9, 6, 0.62));
+    z-index: 0;
+  }
+
+  .hero-vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 46% 52%, transparent 36%, rgba(1, 6, 4, 0.55) 88%);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .glass-card {
+    background: linear-gradient(140deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.03));
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .section-title {
+    font-family: 'Urbanist', sans-serif;
+    display: inline-block;
+    color: #f4fff6;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    border: 1px solid rgba(225, 252, 207, 0.5);
+    padding: 0.2rem 0.9rem;
+    border-radius: 0.5rem;
+  }
+
+  .section-subtitle {
+    font-family: 'Urbanist', sans-serif;
+    color: #f4fff6;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 }

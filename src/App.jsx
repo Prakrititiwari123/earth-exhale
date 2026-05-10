@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-import FeaturedPlant from './components/FeaturedPlant';
 import TrendyPlantsSection from './components/TrendyPlantsSection';
 import TopSellingSection from './components/TopSellingSection';
+import CustomerReviewSection from './components/CustomerReviewSection';
+import BestO2Section from './components/BestO2Section';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,13 +15,14 @@ function App() {
   };
 
   return (
-    <div className="antialiased">
+    <div className="app-shell antialiased">
       <Navbar mobileMenuOpen={mobileMenuOpen} toggleMobileMenu={toggleMobileMenu} />
-      <main>
+      <main className="relative z-10">
         <HeroSection />
-        <FeaturedPlant />
         <TrendyPlantsSection />
         <TopSellingSection />
+        <CustomerReviewSection />
+        <BestO2Section />
       </main>
       <Footer />
     </div>
