@@ -35,7 +35,7 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
 
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a key={link.name} href={link.href} className="text-white/80 hover:text-lime-200 font-medium transition-colors duration-200 relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-lime-300 after:transition-all hover:after:w-full">
+              <a key={link.name} href={link.href} className="nav-link-brand text-white/80 hover:text-lime-200 font-medium transition-colors duration-200 relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-lime-300 after:transition-all hover:after:w-full">
                 {link.name}
               </a>
             ))}
@@ -59,7 +59,7 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
         <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-96 opacity-100 pb-4' : 'max-h-0 opacity-0'}`}>
           <div className="flex flex-col space-y-3 pt-2 pb-4 border-t border-white/15">
             {navLinks.map((link) => (
-              <a key={link.name} href={link.href} onClick={toggleMobileMenu} className="text-white/80 hover:text-lime-200 font-medium py-2 px-2 rounded-md hover:bg-white/10 transition">
+              <a key={link.name} href={link.href} onClick={toggleMobileMenu} className="nav-link-brand text-white/80 hover:text-lime-200 font-medium py-2 px-2 rounded-md hover:bg-white/10 transition">
                 {link.name}
               </a>
             ))}
