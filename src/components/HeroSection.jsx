@@ -41,7 +41,7 @@ const HeroSection = () => {
           </div>
 
           <div className="lg:col-span-5 relative lg:min-h-[34rem] flex items-center justify-center">
-            <div className="glass-card p-4 w-full sm:w-72 lg:absolute lg:right-0 lg:top-4 rounded-[1.75rem] border border-white/10">
+            <div className="glass-strong p-4 w-full sm:w-72 lg:absolute lg:right-0 lg:top-6 rounded-[1.75rem] border border-white/10">
               <div className="flex items-center gap-3">
                 <img
                   src="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=220&q=80"
@@ -57,12 +57,23 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
+            <div className="relative w-full flex items-center justify-center mt-8 lg:mt-0">
+              <div className="absolute -top-4 left-6 glass-card px-3 py-2 rounded-full flex items-center gap-2">
+                <div className="avatar-stack">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=80&q=60" alt="a" />
+                  <img className="avatar--overlap" src="https://images.unsplash.com/photo-1545996124-7f9f3f0a64f9?auto=format&fit=crop&w=80&q=60" alt="b" />
+                  <div className="avatar-badge">+2</div>
+                </div>
+              </div>
 
-            <img
-              src="https://images.unsplash.com/photo-1593482892082-771a43f55fe6?auto=format&fit=crop&w=720&q=80"
-              alt="Featured plant"
-              className="w-[82%] sm:w-[74%] mt-8 lg:mt-0 mx-auto object-contain drop-shadow-[0_30px_50px_rgba(0,0,0,0.5)]"
-            />
+              <div className="w-[82%] sm:w-[74%] mx-auto rounded-3xl overflow-hidden glass-panel-lg">
+                <img
+                  src="https://images.unsplash.com/photo-1593482892082-771a43f55fe6?auto=format&fit=crop&w=1200&q=80"
+                  alt="Featured plant"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
