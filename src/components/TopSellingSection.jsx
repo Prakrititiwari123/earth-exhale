@@ -6,14 +6,14 @@ const topSellingPlants = [
     id: 1,
     name: 'Aglaonema plant',
     price: 300,
-    image: 'https://images.unsplash.com/photo-1593482892082-771a43f55fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care'
   },
   {
     id: 2,
     name: 'Plantain Lilies',
     price: 380,
-    image: 'https://images.unsplash.com/photo-1614594971025-14e3cc3c5700?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,'
   },
   {

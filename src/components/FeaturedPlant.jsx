@@ -6,7 +6,7 @@ const FeaturedPlant = () => {
     <section id="featured" className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col md:flex-row hover:shadow-lg transition">
         <div className="md:w-2/5 flex items-center justify-center p-6" style={{ backgroundColor: '#346739' }}>
-          <img src="https://images.unsplash.com/photo-1593482892082-771a43f55fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aglaemma plant" className="max-h-64 object-contain transform hover:scale-105 transition" />
+          <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aglaemma plant" className="max-h-64 object-contain transform hover:scale-105 transition" />
         </div>
         <div className="md:w-3/5 p-6 md:p-8 flex flex-col justify-center">
           <span className="text-green-600 font-semibold text-sm uppercase tracking-wider">Featured plant</span>
