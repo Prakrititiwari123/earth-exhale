@@ -27,14 +27,14 @@ const HeroSection = () => {
 
             <div className="glass-card mt-7 max-w-[20rem] p-3 flex items-start gap-3 rounded-2xl">
               <img
-                src="https://images.unsplash.com/photo-1584615467033-75627d04a129?auto=format&fit=crop&w=120&q=80"
-                alt="Ronnie Hamill"
+                src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?auto=format&fit=crop&w=120&q=80"
+                alt="Sansevieria plant"
                 className="h-11 w-11 rounded-full object-cover"
               />
               <div>
-                <p className="text-white text-sm font-medium">Ronnie Hamill</p>
+                <p className="text-white text-sm font-medium">Sansevieria Plant</p>
                 <p className="text-white/65 text-xs mt-1 leading-relaxed">
-                  I can&apos;t express how thrilled I am with my new natural plants! They bring such a fresh and vibrant energy to my home.
+                  A stunning air-purifying plant perfect for any space. Low-maintenance and incredibly stylish!
                 </p>
               </div>
             </div>
@@ -60,8 +60,8 @@ const HeroSection = () => {
             <div className="relative w-full flex items-center justify-center mt-8 lg:mt-0">
               <div className="absolute -top-4 left-6 glass-card px-3 py-2 rounded-full flex items-center gap-2">
                 <div className="avatar-stack">
-                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=80&q=60" alt="a" />
-                  <img className="avatar--overlap" src="https://images.unsplash.com/photo-1545996124-7f9f3f0a64f9?auto=format&fit=crop&w=80&q=60" alt="b" />
+                  <img src="https://images.unsplash.com/photo-1614594971025-14e3cc3c5700?auto=format&fit=crop&w=80&q=60" alt="Plantain Lilies" />
+                  <img className="avatar--overlap" src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=80&q=60" alt="Swiss Cheese Plant" />
                   <div className="avatar-badge">+2</div>
                 </div>
               </div>
