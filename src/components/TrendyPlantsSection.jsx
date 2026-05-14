@@ -7,14 +7,14 @@ const trendyItems = [
     title: "For Your Desks Decorations",
     description: "I recently added a beautiful desk decoration plant to my workspace, and it has made such a positive difference!",
     price: 599,
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 2,
     title: "For Your Desks Decorations",
     description: "The greenery adds a touch of nature and serenity to my desk, making it feel more inviting and calming",
     price: 399,
-    image: "https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1447699976645-c37bebf335b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   }
 ];
 
