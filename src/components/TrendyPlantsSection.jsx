@@ -27,7 +27,7 @@ const TrendyPlantsSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {trendyItems.map((item) => (
-            <div key={item.id} className="glass-card rounded-[2rem] overflow-hidden transition-all duration-300 flex flex-col md:flex-row group border border-white/15">
+            <div key={item.id} className="glass-card rounded-4xl overflow-hidden transition-all duration-300 flex flex-col md:flex-row group border border-white/15">
               <div className="md:w-2/5 bg-white/5 flex items-center justify-center p-4">
                 <img src={item.image} alt={item.title} className="h-48 object-contain group-hover:scale-105 transition duration-300" loading="lazy" />
               </div>

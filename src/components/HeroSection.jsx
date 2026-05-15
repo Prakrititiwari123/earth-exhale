@@ -40,7 +40,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative lg:min-h-[34rem] flex items-center justify-center">
+          <div className="lg:col-span-5 relative lg:min-h-136 flex items-center justify-center">
             <div className="glass-strong p-4 w-full sm:w-72 lg:absolute lg:right-0 lg:top-6 rounded-[1.75rem] border border-white/10">
               <div className="flex items-center gap-3">
                 <img
