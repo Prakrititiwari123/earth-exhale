@@ -58,13 +58,6 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="relative w-full flex items-center justify-center mt-8 lg:mt-0">
-              <div className="absolute -top-4 left-6 glass-card px-3 py-2 rounded-full flex items-center gap-2">
-                <div className="avatar-stack">
-                  <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=80&q=60" alt="Plantain Lilies" />
-                  <img className="avatar--overlap" src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=80&q=60" alt="Swiss Cheese Plant" />
-                  <div className="avatar-badge">+2</div>
-                </div>
-              </div>
 
               <div className="w-[82%] sm:w-[74%] mx-auto rounded-3xl overflow-hidden glass-panel-lg">
                 <img
