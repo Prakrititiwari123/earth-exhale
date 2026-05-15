@@ -14,7 +14,7 @@ const trendyItems = [
     title: "For Your Desks Decorations",
     description: "The greenery adds a touch of nature and serenity to my desk, making it feel more inviting and calming",
     price: 399,
-    image: "https://images.unsplash.com/photo-1447699976645-c37bebf335b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   }
 ];
 
