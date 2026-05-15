@@ -44,7 +44,7 @@ const HeroSection = () => {
             <div className="glass-strong p-4 w-full sm:w-72 lg:absolute lg:right-0 lg:top-6 rounded-[1.75rem] border border-white/10">
               <div className="flex items-center gap-3">
                 <img
-                  src="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=220&q=80"
+                  src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=220&q=80"
                   alt="Aglaonema plant"
                   className="h-24 w-24 object-cover drop-shadow-xl"
                 />
