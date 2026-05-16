@@ -18,7 +18,7 @@ const topSellingPlants = [
   },
   {
     id: 3,
-    name: 'Cactus',
+    name: 'Cactus plant',
     price: 259,
     image: 'https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'It is known for their ability to thrive in arid environments'
