@@ -60,6 +60,7 @@ const Footer = () => {
             <p className="text-sm text-gray-400 leading-relaxed">Type’s Of plant’s</p>
             <p className="text-sm text-gray-400 mt-2 leading-relaxed">FB  TW  LI</p>
           </div>
+          
         </div>
         <div className="text-center text-gray-500 text-sm pt-8">
           FloraVision © all right reserve
