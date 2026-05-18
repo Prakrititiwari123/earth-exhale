@@ -21,6 +21,7 @@ const Footer = () => {
           <div>
             <span className="text-2xl font-bold text-white">Flora<span className="text-lime-300">Vision.</span></span>
             <p className="mt-4 text-sm text-gray-400 leading-relaxed">&quot;From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment.&quot;</p>
+            
             <div className="flex space-x-4 mt-5">
               <a href="#" aria-label="Facebook" className="bg-white/10 p-2 rounded-full hover:bg-lime-400 hover:text-black transition"><FaFacebookF /></a>
               <a href="#" aria-label="Twitter" className="bg-white/10 p-2 rounded-full hover:bg-lime-400 hover:text-black transition"><FaTwitter /></a>
