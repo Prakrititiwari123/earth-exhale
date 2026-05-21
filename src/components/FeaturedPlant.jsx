@@ -24,6 +24,7 @@ const FeaturedPlant = () => {
 
         </div>
       </div>
+      
     </section>
   );
 };
