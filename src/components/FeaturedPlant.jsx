@@ -23,6 +23,7 @@ const FeaturedPlant = () => {
           </button>
 
         </div>
+        
       </div>
       
     </section>
