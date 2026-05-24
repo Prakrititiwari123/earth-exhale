@@ -3,6 +3,7 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const BestO2Section = () => {
   return (
+    
     <section id="best-o2" className="py-14 md:py-18 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         <div className="lg:col-span-7">
