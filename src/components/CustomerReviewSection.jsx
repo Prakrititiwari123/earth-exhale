@@ -17,7 +17,6 @@ const reviews = [
 
 const CustomerReviewSection = () => {
   return (
-    
     <section className="py-14 md:py-18 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="mb-8 md:mb-10">
         <h2 className="section-title">Customer Review</h2>
