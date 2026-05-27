@@ -20,22 +20,22 @@ const topSellingPlants = [
     id: 3,
     name: 'Cactus plant',
     price: 259,
-    image: 'https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    description: 'It is known for their ability to thrive in arid environments'
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'A small barrel cactus — low-maintenance and perfect for sunny spots.'
   },
   {
     id: 4,
-    name: 'Swiss cheese Plant',
+    name: 'Swiss Cheese Plant',
     price: 400,
-    image: 'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    description: 'It is a popular tropical houseplant known for its distinctive, perforated leaves'
+    image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Monstera deliciosa — iconic perforated leaves that bring a tropical vibe indoors.'
   },
   {
     id: 5,
-    name: 'Sansevieria plant',
+    name: 'Sansevieria (Snake Plant)',
     price: 450,
-    image: 'https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    description: 'It is a popular indoor plant admired for its striking appearance and low-maintenance nature.'
+    image: 'https://images.unsplash.com/photo-1582719478250-3e9a8f3a1c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Also called Snake Plant — hardy, upright foliage and excellent air-purifying qualities.'
   },
   {
     id: 6,
