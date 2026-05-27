@@ -20,7 +20,7 @@ const topSellingPlants = [
     id: 3,
     name: 'Cactus plant',
     price: 259,
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: '/images/cactus.jpeg',
     description: 'A small barrel cactus — low-maintenance and perfect for sunny spots.'
   },
   {
@@ -34,7 +34,7 @@ const topSellingPlants = [
     id: 5,
     name: 'Sansevieria (Snake Plant)',
     price: 450,
-    image: 'https://images.unsplash.com/photo-1582719478250-3e9a8f3a1c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: '/images/snake.jpeg',
     description: 'Also called Snake Plant — hardy, upright foliage and excellent air-purifying qualities.'
   },
   {
