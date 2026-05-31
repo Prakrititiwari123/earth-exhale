@@ -9,7 +9,6 @@ const FeaturedPlant = () => {
           <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aglaemma plant" className="max-h-64 object-contain transform hover:scale-105 transition" />
         </div>
         <div className="md:w-3/5 p-6 md:p-8 flex flex-col justify-center">
-        
           <span className="text-green-600 font-semibold text-sm uppercase tracking-wider">Featured plant</span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-1">Aglaemma plant</h2>
           <div className="flex items-center mt-3 text-2xl font-semibold text-green-800">
