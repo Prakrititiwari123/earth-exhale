@@ -25,7 +25,6 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
 
   return (
     <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/40 backdrop-blur-lg border-b border-white/10' : 'bg-transparent'}`}>
-      
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <div className="shrink-0 flex items-center">
