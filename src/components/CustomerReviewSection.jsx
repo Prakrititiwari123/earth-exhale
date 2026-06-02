@@ -34,7 +34,6 @@ const CustomerReviewSection = () => {
           </article>
         ))}
       </div>
-
     </section>
     
   );
