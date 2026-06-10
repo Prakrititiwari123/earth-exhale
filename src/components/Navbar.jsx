@@ -32,6 +32,7 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
               Flora<span className="text-lime-300">Vision.</span>
             </span>
           </div>
+          
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a key={link.name} href={link.href} className="nav-link-brand text-white/80 hover:text-lime-200 font-medium transition-colors duration-200 relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-lime-300 after:transition-all hover:after:w-full">
