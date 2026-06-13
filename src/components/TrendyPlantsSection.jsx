@@ -49,7 +49,6 @@ const TrendyPlantsSection = () => {
         </div>
       </div>
     </section>
-    
   );
 };
 
