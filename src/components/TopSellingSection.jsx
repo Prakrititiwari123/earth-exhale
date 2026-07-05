@@ -76,5 +76,4 @@ const TopSellingSection = () => {
     </section>
   );
 };
-
 export default TopSellingSection;
