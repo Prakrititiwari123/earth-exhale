@@ -64,6 +64,7 @@ const PlantCard = ({ name, price, image, description }) => {
   );
 };
 
+
 const TopSellingSection = () => {
   return (
     <section id="top-selling" className="py-12 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
