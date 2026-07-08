@@ -70,7 +70,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-[#06160d] to-transparent" />
     </section>
   );
