@@ -55,7 +55,6 @@ const HeroSection = () => {
                     Buy Now
                   </button>
                 </div>
-                
               </div>
             </div>
             <div className="relative w-full flex items-center justify-center mt-8 lg:mt-0">
