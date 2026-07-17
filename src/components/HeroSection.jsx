@@ -2,6 +2,7 @@ import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
 
 const HeroSection = () => {
+  
   return (
     <section className="relative overflow-hidden pt-24 md:pt-28 pb-14 md:pb-20 min-h-screen">
       <div className="hero-bg" />
