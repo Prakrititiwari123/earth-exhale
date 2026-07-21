@@ -13,7 +13,6 @@ const Footer = () => {
       alert('Please enter a valid email address.');
     }
   };
-
   return (
     <footer id="footer" className="bg-transparent text-gray-300 pt-16 pb-8 mt-10 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
